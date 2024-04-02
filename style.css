@@ -120,6 +120,7 @@ a:hover {
 
 .menu-links.open {
   max-height: 300px;
+  z-index: 1;
 }
 
 .hamburger-icon.open span:first-child {
@@ -651,3 +652,4 @@ footer p {
   text-align: center;
   margin-right: 86px;
 }
+
