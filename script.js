@@ -7,16 +7,16 @@ function toggleMenu() {
 
 const sr = ScrollReveal({
   origin: 'top',
-  distance: '25px',
-  duration: 1700,
+  distance: '35px',
+  duration: 2000,
   reset: true
 });
 
 sr.reveal(`.secnew,.btn-container, .socialcontainer,
           .section-container,.EXP, .text-container,
-          .experience-details-container,
+          .article-container,.experience-sub-title project-title,btn-container
           .contact-info-upper-container,.certificate-container`, {
-  interval: 100
+  interval: 10
 });
 
 console.log("ScrollReveal initialized");
